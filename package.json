@@ -1,8 +1,11 @@
 {
   "name": "react-redux-i18n",
   "version": "1.9.3",
-  "author": "Artis Avotins",
+  "author": "Anil Poudel",
   "main": "./build/index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "esw --ext .js src --color",
